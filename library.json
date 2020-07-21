@@ -1,0 +1,17 @@
+{
+  "name" : "MotorDriveForKB15",
+  "title": "MotorDriveForKB15",
+  "keywords": "Robot, esp32, motor",
+  "description": "บอร์ดขับมอเตอร์สำหรับบอร์ด KidbrightV1.5",
+  "category":"Device Control",
+  "git": "https://github.com/PrinceBot-Ratthanin/KBIDERobot-extension/",
+  "author": "PrinceBot",
+  "email": "print081@gmail.com",
+  "url": "https://github.com/PrinceBot-Ratthanin/KBIDERobot-extension/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "Adafruit",
+  "image" : "/static/icon.png",
+  "homepage": "http://www.kbide.org"
+}
