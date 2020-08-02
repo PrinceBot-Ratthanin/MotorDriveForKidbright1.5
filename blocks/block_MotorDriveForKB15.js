@@ -102,3 +102,19 @@ Blockly.Blocks['MotorDriveForKB15_motor_stop_ch'] = {
     this.setTooltip("");
   }
 };
+Blockly.Blocks['MotorDriveForKB15_analog'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Analog sensor ")
+        .appendField(new Blockly.FieldDropdown([
+                                            ["IN1 (G32)", "32"],
+                                            ["IN2 (G33)", "33"],
+                                            ["IN3 (G34)", "34"],
+                                            ["IN4 (G35)", "35"]]), "pin");
+    this.setInputsInline(true);
+    this.setOutput(true, "Number");
+    this.setColour(220);
+ this.setTooltip("read analog value from pin");
+ this.setHelpUrl("");
+  }
+};

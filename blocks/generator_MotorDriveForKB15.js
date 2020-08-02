@@ -71,3 +71,8 @@ Blockly.JavaScript['MotorDriveForKB15_motor_stop_ch'] = function(block) {
   
   return code;
 };
+  Blockly.JavaScript['MotorDriveForKB15_analog'] = function(block) {
+    var value_pin = block.getFieldValue('pin');
+    var code = `analogRead(${value_pin})`;
+    return [code, Blockly.JavaScript.ORDER_ATOMIC];
+  };

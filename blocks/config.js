@@ -3,6 +3,7 @@ module.exports = [
         name: "MotorDriveForKBV1.5",
         blocks: [
             'MotorDriveForKB15_setup',
+            'MotorDriveForKB15_analog',
             {
                     xml : 
                     `<block type="MotorDriveForKB15_motor_stop_ch">
